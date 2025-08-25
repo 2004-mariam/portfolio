@@ -1,0 +1,32 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing:border-box;
+}
+body {
+      font-family: 'Roboto', sans-serif;
+    }
+    .hero-section {
+      background: linear-gradient(135deg, #cf81c2, #76426f);
+      color: white;
+      padding: 100px 0;
+      text-align: center;
+    }
+    .project-card {
+      transition: transform 0.3s;
+    }
+    .project-card:hover {
+      transform: scale(1.05);
+    }
+    .navbar {
+      background-color: #824778;
+    }
+    .navbar-brand, .nav-link {
+      color: white !important;
+    }
+    footer {
+      background-color:#824778;
+      color: white;
+      padding: 20px 0;
+    }
+  
